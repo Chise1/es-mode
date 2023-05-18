@@ -1,0 +1,61 @@
+{
+  "took": 3,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 2,
+      "relation": "eq"
+    },
+    "max_score": 1.0,
+    "hits": [
+      {
+        "_index": "syslog_20230221",
+        "_type": "_doc",
+        "_id": "KDAyc4YBIeNGrQaXgt2z",
+        "_score": 1.0,
+        "_source": {
+          "k_AGENTNAME": "",
+          "k_ALARMTYPEID": "",
+          "k_HANDLE_RULE": "",
+          "k_NODECODE": "",
+          "k_RESNAME": "",
+          "k_SUMALARMID": "",
+          "l_ALARMSTATUS": "1",
+          "p_SERVICEIP": "127.0.0.1",
+          "p_SOURECEIP": "127.0.0.1",
+          "s_MESSAGE": "Feb 21 16:58:54 127.0.0.1 Jun 27 09:37:21 ::ffff:61.145.193.207 61.145.193.207 TMNX: 54694 Base BGP-WARNING-tBgpNgBackwardTransition-2020 [Peer 2.2.2.2]:  VR 1: Group XZPB-Access-V6: Peer 2409:807e::2: moved from higher state filter to lower state IDLE due to event HOLDTIME",
+          "s_NODEFULLCODE": "",
+          "s_REMARK": "",
+          "t_GENERATETIME": "2023-02-21 16:58:54"
+        }
+      },
+      {
+        "_index": "syslog_20230221",
+        "_type": "_doc",
+        "_id": "AZQzc4YBOVP8olbva2n9",
+        "_score": 1.0,
+        "_source": {
+          "k_AGENTNAME": "Alcatel",
+          "k_ALARMTYPEID": "RS0000",
+          "k_HANDLE_RULE": "70",
+          "k_NODECODE": "",
+          "k_RESNAME": "",
+          "k_SUMALARMID": "",
+          "l_ALARMSTATUS": "1",
+          "p_SERVICEIP": "127.0.0.1",
+          "p_SOURECEIP": "127.0.0.1",
+          "s_MESSAGE": "Feb 21 16:59:54 127.0.0.1 Jun 27 09:37:21 ::ffff:61.145.193.207 61.145.193.207 TMNX: 54694 Base BGP-WARNING-tBgpNgBackwardTransition-2020 [Peer 2.2.2.2]:  VR 1: Group XZPB-Access-V6: Peer 2409:807e::2: moved from higher state filter to lower state IDLE due to event HOLDTIME",
+          "s_NODEFULLCODE": "",
+          "s_REMARK": "4",
+          "t_GENERATETIME": "2023-02-21 16:59:54"
+        }
+      }
+    ]
+  }
+}

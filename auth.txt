@@ -1,0 +1,10 @@
+[Es.Auth]
+Enabled = true
+Username = "elastic"
+Password = "CdfXheFrmHaPkdjgq51c"
+
+curl -u elastic:CdfXheFrmHaPkdjgq51c -XPUT http://127.0.0.1:9200/bigdata_p
+curl -k -u elastic:CdfXheFrmHaPkdjgq51c -H"Content-type:application/json" -XPOST http://127.0.0.1:9200/bigdata_p/product/1 -d '{"author" : "Doug Cutting"}'
+curl -k -u elastic:CdfXheFrmHaPkdjgq51c   http://127.0.0.1:9200/syslog_20230228/_search
+
+curl -k -u elastic:CdfXheFrmHaPkdjgq51c -H"Content-type:application/json" -XPOST http://127.0.0.1:9200/syslog_20230221/product/1 -d '{"author" : "Doug Cutting"}'
